@@ -301,3 +301,25 @@ body {
     transform: rotate(0deg);
  }
 
+ .banner-container-two {
+    position: absolute;
+    top: 85%;
+    width: 100%; /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  
+  .banner-image-two {
+    width: 250%; /* Adjust as needed */
+    animation: scrollBannerTwo 20s linear infinite;
+  }
+
+  @keyframes scrollBannerTwo {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-20%);
+    }
+  }
+
