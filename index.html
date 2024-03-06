@@ -45,6 +45,9 @@
 
 
 
+
+
+
 <div id="pause">
   <div id="hiddenBugs">
   <p>Hello <span class="userName"></span>, how are you today?</p>
@@ -55,7 +58,7 @@
 <div id="forYou">
     <form id="styleForm">
    
-  <label>How do you feel today?</label><br>
+  <label>How do you feel?</label><br>
   <input type="radio" id="image1" name="bgImage" value="image1">
   <label for="image1">Aware of my mortality</label><br>
   <input type="radio" id="image2" name="bgImage" value="image2">
@@ -78,13 +81,21 @@
     <label for="div4">If I tell you it’s shape it’s no longer mine</label><br>
     <br>
 
-    <label>What do you carry with you?</label><br>
+    <div id="contentSelector">
+      <label>What do you carry with you today?</label><br>
+      <input type="radio" id="content1" name="content" value=" 🍓  🍓  🍓  🍓 🍓  🍓  🍓  🍓 🍓  🍓  🍓  🍓 🍓  🍓  🍓  🍓 🍓  🍓  🍓  🍓">
+      A piece of sweet fruit</label><br>
+      <input type="radio" id="content2" name="content" value="🗡  🗡  🗡  🗡  🗡  🗡 🗡  🗡  🗡  🗡  🗡  🗡 🗡  🗡  🗡  🗡  🗡  🗡">
+      <label for="content2">An object of protection</label><br>
+      <input type="radio" id="content3" name="content" value="🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇  🐇">
+      <label for="content3">A faithful companion</label><br>
+    </div>
+    <br>
+    <label>Are you sharp or soft?</label><br>
     <input type="radio" id="arial" name="font" value="Space Mono">
-    <label for="arial">A sword forged in steel</label><br>
+    <label for="arial">Sharp</label><br>
     <input type="radio" id="timesNewRoman" name="font" value="Almendra">
-    <label for="timesNewRoman">A victorian hand mirror</label><br>
-    <input type="radio" id="courier" name="font" value="Alegreya">
-    <label for="courier">A lighter no one will steal</label><br>
+    <label for="timesNewRoman">Soft</label><br>
     <br>
 
     <button type="submit">Submit</button>
@@ -103,27 +114,58 @@
 
 
 <div class="canWeShareNow" id="canWeShareNow1">
+ 
   <p id="yourGift">🕊 Dear <span class="userName"></span> 🕊,</p>
   <p class="paragraph">
-    I hope this is finding you softly and sweetly. To start I am a web developer, designer, and artist. Currently I am a digital producer at the Phillips art auction house and a contract designer with Coco Marketing working for a few clients including the Brooklyn Museum. I am non-binary, a former SW, and living in Philadelphia, PA. 
-<br><br>
-    Creating experimental websites is my preferred way to communicate conceptual ideas and research. CSS intimately fits in with my personal practices. CSS invokes the artist in me, it feels as if I am drawing, painting, and sculpting with properties, classes, and tags. I was introduced to web development through a design and technology program which has informed the way I code greatly. I am always thinking through a lens of poetic computation. When I made my first website with just HTML and CSS it felt like magic. CSS breathes life into the bones of HTML and transforms it. I use CSS statically, like a zine maker, collaging and manipulating placements, and fluidly to create web animations and movement. I use CSS IDs and Classes to create hidden digital poems of my own. CSS can turn a website from static and neutral to a website blooming and full. I believe the internet is the most interesting when you’re stumbling on someone's handmade page. 
-    <br><br>
-    CSS is the seed of all my websites. Recently I have been working on a series of websites as greeting cards. These are single serving pages meant to be used in place of a physical card, drawing on net art aesthetics and inspired by greeting gifs, which seem nostalgic and new all at once. Using some simple CSS brings movement into these websites, as seen with the <a href="https://lizard-ctrl.github.io/digi-garden/">Thank You Card</a> and the <a href="https://lizard-ctrl.github.io/mirror/">I Love You Card.</a>  Another project of mine, <a href="https://lizard-ctrl.github.io/thesisonefinal/">Our Body Online,</a> uses light CSS with JS to create impactful design and movement. The purpose is to illustrate the thin veil between our bodies, others bodies, and the body of the internet. In <a href="https://lizard-ctrl.github.io/havewemet/">R/Havewemet</a> I utilized CSS to create a map of the imaginary town in the aforementioned subreddit. Specific locations are attributed to each home along with CSS tooltips. When you click into the process page I am able to use CSS to visually cue to the user that the narrative of the site is now shifting. I see CSS as a key tool in my worldbuilding online. 
-    <br><br>
-    Outside of web development I also create sculptures, write, and make films. I feel that all of my practices feed off of eachother. My sculpture work normally involves physical computation, my most recent project being a <a href="https://www.timeout.com/newyork/news/can-art-make-us-lol-these-nyc-comedians-want-to-find-out-092123">“Yassified Billy Bass”</a> that sings and dances at your touch.  My writing practice is currently focused towards <a href="https://my-boyfriend.com/">My Boyfriend Lit Mag</a> where I write pieces that analyze and poke at chronic onlineness while also doing the web and print design. My film work explores how we can build characters and narratives through screen recordings and performance on the computer as best shown in <a href="https://www.youtube.com/watch?v=vl5jJr2k_xk">Ilovguys5675</a>. Everything I make has a running thread of poetic computation involved and has a multidisciplinary range.  
-    <br><br>
-    I have experience in collective and collaborative work as a facilitator, organizer, and participant. The best discoveries I’ve had artistically have come from being surrounded by people with different life experiences to create together. Most recently I participated in OOOhackathon where I collaborated with a group of eight people to create a set of vibrators that were activated by human biometrics. Working intimately with this group over a short period of time was so fulfilling and led to us all learning from each other on a topic we were mutually passionate about. I have also participated in NYU’s Interactive Telecommunications Program camp which is a month-long skill sharing event. I was able to facilitate workshops and collectively guide people in my cohort to discover new parts of their practice. In past years I have organized feminist wikipedia edit-a-thons and have found so much joy in working towards a collective purpose. Being involved with collaborative work always leaves me feeling invigorated, whether I am leading or participating. Knowledge should always be shared among others; there is nothing more beautiful to me than open source. I believe collective learning and collective creation is the only way forward. 
-    <br><br>
-    A presentation I would like to propose would be a web performance of an expanded version of the WIP <a href="https://lizard-ctrl.github.io/core-studio-fall/daily-sketches/sketch2/index.html">All Of My Data.</a> This project presents my full digital footprint. This includes public digital posts of mine but also data collected from applications and images stored in the cloud. CSS helps me to orchestrate the user’s movements on the website while also helping to build design and structure. The newer version has been in progress for a bit and I would be proud to share it. I would like to walk through the website and the rehearsed movements while also touching on security and safety online.
-    <br><br>
-    I am so grateful for the opportunity to submit an application with you and am looking forward to hearing back.
-    <br><br>
-    <a href="https://emmataylor.fun/">Cheers, 
-    Emma Taylor
-  </a>
-  <br>
-  ps: CV Below ---> 
+    I hope this is finding you softly and sweetly. I am a web developer, designer, and artist based in Philadelphia, Pennsylvania USA. Currently I am a digital producer at the Phillips art auction house in NYC and a contract designer with Coco Marketing, where I work with clients including the Brooklyn Museum, EarthTonics, and Leap. My artistic practice explores ideas of consent online, virtual communities, digital intimacy, and the ever thinning line between our physical and digital bodies. I am interested in the ways declarative language can be used poetically and want to explore the fluidity, power structures, and existing semantics within them. I believe I would contribute greatly to this worksession. 
+    <br>
+
+    <div class="itMovesMe">
+    <span class="yourFaith">Initial Content</span>
+  </div>
+
+    <br>
+    CSS intimately fits in with my personal practices. Declarative languages invoke the artist in me, it feels as if I am drawing, painting, and sculpting with properties, classes, and tags. I use CSS statically, like a zine maker, collaging and manipulating placements, or fluidly creating web animations and movement. CSS turns a website from a barren landscape to one that is blooming and full. My background in art original stems from zine work and design work. HTML/CSS were so appealing to me because of the accessibility in their semantics and their ability to mimic print design. Using these two languages feels like cutting up pieces of information and gluing them onto a webpage, fun and messy and full of potential. CSS can be used in a beginner, intermediate, and advanced way depending on familiarity and is more easily understood by others than algorithmic languages. The potential for skill sharing and teaching is abundant within them both. Where JS was initially intimidating for me HTML/CSS has always felt like magic. The poetic uses of CSS’s raw code is continuously appealing to me as well. I use IDs and classes creating hidden digital poems of my own inside of the text documents. I think of the body tag as a physical space, a piece of land that I am shapeshifting and morphing. My passion and focus artistically has always been on hand coding websites and experimenting with the fantasy worlds we can build within them. I believe the internet is the most interesting when you’re stumbling on someone's handmade page. Joining this worksession would give me the opportunity to expand and experiment with these ideas surrounding CSS further and grow alongside others. 
+        <br><br>
+        <div class="itMovesMe">
+          <span class="yourFaith">Initial Content</span>
+        </div>
+        <br>
+        When creating experimental websites I find motivation artistically in building virtual worlds, community, and intimacy within them. I often start with a seed of a research topic or idea and let the website grow alongside it. CSS is the bud of the plant, the petals, and the flowering growth. Recently I have been working on a series of websites as greeting cards. These are single serving pages meant to be used in place of a physical card, drawing on net art aesthetics and inspired by greeting gifs, which seem nostalgic and new all at once. Using some simple CSS brings movement into these websites, as seen with the <a href="https://lizard-ctrl.github.io/digi-garden/">Thank You Card</a> and the <a href="https://lizard-ctrl.github.io/mirror/">I Love You Card.</a>  Another project of mine, <a href="https://lizard-ctrl.github.io/thesisonefinal/">Our Body Online,</a> uses light CSS with JS to create impactful design and movement. The purpose is to illustrate the thin veil between our bodies, others bodies, and the body of the internet. I was particularly focused on styling and interrogating the body {} tag when creating the project and thinking intentionally about the connection between CSS’s semantic physicality and our own physical world. In <a href="https://lizard-ctrl.github.io/havewemet/">R/Havewemet</a> I utilized CSS to create a map of the imaginary town in the aforementioned subreddit. CSS fleshed out this imagined virtual reality that existed only as text beforehand. Specific locations are attributed to each home along with CSS tooltips. When you click into the process page I am able to use CSS to visually cue to the user that the narrative of the site is now shifting. I see CSS as a key tool in my worldbuilding online. 
+        <br>
+        <br> 
+        <div class="itMovesMe">
+          <span class="yourFaith">Initial Content</span>
+        </div>
+        <br>
+        Outside of web development I also create sculptures, write, and make films. I feel that all of my practices feed off of eachother. My sculpture work normally involves physical computation, my most recent project being a <a href="https://www.timeout.com/newyork/news/can-art-make-us-lol-these-nyc-comedians-want-to-find-out-092123">“Yassified Billy Bass”</a> that sings and dances at your touch.  My writing practice is currently focused towards <a href="https://my-boyfriend.com/">My Boyfriend Lit Mag</a> where I write pieces that analyze and poke at chronic onlineness while also doing the web and print design. My film work explores how we can build characters and narratives through screen recordings and performance on the computer as best shown in <a href="https://www.youtube.com/watch?v=vl5jJr2k_xk">Ilovguys5675</a>. My experience across disciplines allows me to communicate ideas in many different digital poetic ways and would contribute well in a shared + collaborative space.  
+        <br>
+        <br>
+        <div class="itMovesMe">
+          <span class="yourFaith">Initial Content</span>
+        </div>
+        <br>
+        I have experience in collective and collaborative work as a facilitator, teacher, organizer, and participant. The best discoveries I’ve had artistically have come from being surrounded by people with different life experiences to create together. Most recently I participated in OOOhackathon where I collaborated with a group of eight people to create a set of vibrators that were activated by human biometrics. Working intimately with this group over a short period of time was so fulfilling and led to us all learning from each other on a topic we were mutually passionate about. I have also participated in NYU’s Interactive Telecommunications Program camp which is a month-long skill sharing event. I was able to facilitate workshops and collectively guide people in my cohort to discover new parts of their practice. In past years I have organized feminist wikipedia edit-a-thons and have found so much joy in working towards a collective purpose. My teaching experience has involved working with children and creating material that makes learning technical skills accessible on a very basic level. This has assisted greatly in my communication skills within collaborative work and my ability to explain higher level concepts in an easily understandable way.  Participating in work within a shared space always leaves me feeling invigorated, whether I am leading or participating. Knowledge should always be shared among others; there is nothing more beautiful to me than open source. I believe collective learning and collective creation is the only way forward. 
+        <br>
+        <br>
+        <div class="itMovesMe">
+          <span class="yourFaith">Initial Content</span>
+        </div>
+        <br>
+        A presentation I would like to propose would be a web performance of an expanded version of <a href="https://lizard-ctrl.github.io/core-studio-fall/daily-sketches/sketch2/index.html">All Of My Data.</a> This project presents my digital footprint, weaving digital posts of mine with data collected from applications and images stored in the cloud. CSS is an integral part of this work as it helps me to orchestrate the user’s movements on the website alongside building design and structure. The newer version has been in progress for a bit and I would be proud to share it. I would like to walk through the website and the rehearsed movements while also touching on intimacy, surveillance, and consent online.
+        <br> 
+        <br>
+        <div class="itMovesMe">
+          <span class="yourFaith">Initial Content</span>
+        </div>
+        <br>
+        I believe my multidisciplinary skills and artistic practice along with my teaching experience and passion for declarative languages would make me a great fit for this worksession. I am so grateful for the opportunity to submit an application with you and am looking forward to hearing back.
+        <br><br>
+        <a href="https://emmataylor.fun/">Cheers, 
+        Emma Taylor
+      </a>
+      <br><br>
+      ps: CV Below ---> 
     </p>
 
 
@@ -193,25 +235,55 @@
   <div id="tangledInYou">
     <p id="yourGift">🕊 Dear <span class="userName"></span> 🕊,</p>
     <p class="paragraph">
-      I hope this is finding you softly and sweetly. To start I am a web developer, designer, and artist. Currently I am a digital producer at the Phillips art auction house and a contract designer with Coco Marketing working for a few clients including the Brooklyn Museum. I am non-binary, a former SW, and living in Philadelphia, PA. 
-  <br><br>
-      Creating experimental websites is my preferred way to communicate conceptual ideas and research. CSS intimately fits in with my personal practices. CSS invokes the artist in me, it feels as if I am drawing, painting, and sculpting with properties, classes, and tags. I was introduced to web development through a design and technology program which has informed the way I code greatly. I am always thinking through a lens of poetic computation. When I made my first website with just HTML and CSS it felt like magic. CSS breathes life into the bones of HTML and transforms it. I use CSS statically, like a zine maker, collaging and manipulating placements, and fluidly to create web animations and movement. I use CSS IDs and Classes to create hidden digital poems of my own. CSS can turn a website from static and neutral to a website blooming and full. I believe the internet is the most interesting when you’re stumbling on someone's handmade page. 
-      <br><br>
-      CSS is the seed of all my websites. Recently I have been working on a series of websites as greeting cards. These are single serving pages meant to be used in place of a physical card, drawing on net art aesthetics and inspired by greeting gifs, which seem nostalgic and new all at once. Using some simple CSS brings movement into these websites, as seen with the <a href="https://lizard-ctrl.github.io/digi-garden/">Thank You Card</a> and the <a href="https://lizard-ctrl.github.io/mirror/">I Love You Card.</a>  Another project of mine, <a href="https://lizard-ctrl.github.io/thesisonefinal/">Our Body Online,</a> uses light CSS with JS to create impactful design and movement. The purpose is to illustrate the thin veil between our bodies, others bodies, and the body of the internet. In <a href="https://lizard-ctrl.github.io/havewemet/">R/Havewemet</a> I utilized CSS to create a map of the imaginary town in the aforementioned subreddit. Specific locations are attributed to each home along with CSS tooltips. When you click into the process page I am able to use CSS to visually cue to the user that the narrative of the site is now shifting. I see CSS as a key tool in my worldbuilding online. 
-      <br><br>
-      Outside of web development I also create sculptures, write, and make films. I feel that all of my practices feed off of eachother. My sculpture work normally involves physical computation, my most recent project being a <a href="https://www.timeout.com/newyork/news/can-art-make-us-lol-these-nyc-comedians-want-to-find-out-092123">“Yassified Billy Bass”</a> that sings and dances at your touch.  My writing practice is currently focused towards <a href="https://my-boyfriend.com/">My Boyfriend Lit Mag</a> where I write pieces that analyze and poke at chronic onlineness while also doing the web and print design. My film work explores how we can build characters and narratives through screen recordings and performance on the computer as best shown in <a href="https://www.youtube.com/watch?v=vl5jJr2k_xk">Ilovguys5675</a>. Everything I make has a running thread of poetic computation involved and has a multidisciplinary range.  
-      <br><br>
-      I have experience in collective and collaborative work as a facilitator, organizer, and participant. The best discoveries I’ve had artistically have come from being surrounded by people with different life experiences to create together. Most recently I participated in OOOhackathon where I collaborated with a group of eight people to create a set of vibrators that were activated by human biometrics. Working intimately with this group over a short period of time was so fulfilling and led to us all learning from each other on a topic we were mutually passionate about. I have also participated in NYU’s Interactive Telecommunications Program camp which is a month-long skill sharing event. I was able to facilitate workshops and collectively guide people in my cohort to discover new parts of their practice. In past years I have organized feminist wikipedia edit-a-thons and have found so much joy in working towards a collective purpose. Being involved with collaborative work always leaves me feeling invigorated, whether I am leading or participating. Knowledge should always be shared among others; there is nothing more beautiful to me than open source. I believe collective learning and collective creation is the only way forward. 
-      <br><br>
-      A presentation I would like to propose would be a web performance of an expanded version of the WIP <a href="https://lizard-ctrl.github.io/core-studio-fall/daily-sketches/sketch2/index.html">All Of My Data.</a> This project presents my full digital footprint. This includes public digital posts of mine but also data collected from applications and images stored in the cloud. CSS helps me to orchestrate the user’s movements on the website while also helping to build design and structure. The newer version has been in progress for a bit and I would be proud to share it. I would like to walk through the website and the rehearsed movements while also touching on security and safety online.
-      <br><br>
-      I am so grateful for the opportunity to submit an application with you and am looking forward to hearing back.
-      <br><br>
-      <a href="https://emmataylor.fun/">Cheers, 
-      Emma Taylor
-    </a>
-    <br><br>
-    ps: CV Below ---> 
+      I hope this is finding you softly and sweetly. I am a web developer, designer, and artist based in Philadelphia, Pennsylvania USA. Currently I am a digital producer at the Phillips art auction house in NYC and a contract designer with Coco Marketing, where I work with clients including the Brooklyn Museum, EarthTonics, and Leap. My artistic practice explores ideas of consent online, virtual communities, digital intimacy, and the ever thinning line between our physical and digital bodies. I am interested in the ways declarative language can be used poetically and want to explore the fluidity, power structures, and existing semantics within them. I believe I would contribute greatly to this worksession. 
+      <br>
+  
+      <div class="itLightsMe">
+      <span class="yourFaith">Initial Content</span>
+    </div>
+  
+      <br>
+      CSS intimately fits in with my personal practices. Declarative languages invoke the artist in me, it feels as if I am drawing, painting, and sculpting with properties, classes, and tags. I use CSS statically, like a zine maker, collaging and manipulating placements, or fluidly creating web animations and movement. CSS turns a website from a barren landscape to one that is blooming and full. My background in art original stems from zine work and design work. HTML/CSS were so appealing to me because of the accessibility in their semantics and their ability to mimic print design. Using these two languages feels like cutting up pieces of information and gluing them onto a webpage, fun and messy and full of potential. CSS can be used in a beginner, intermediate, and advanced way depending on familiarity and is more easily understood by others than algorithmic languages. The potential for skill sharing and teaching is abundant within them both. Where JS was initially intimidating for me HTML/CSS has always felt like magic. The poetic uses of CSS’s raw code is continuously appealing to me as well. I use IDs and classes creating hidden digital poems of my own inside of the text documents. I think of the body tag as a physical space, a piece of land that I am shapeshifting and morphing. My passion and focus artistically has always been on hand coding websites and experimenting with the fantasy worlds we can build within them. I believe the internet is the most interesting when you’re stumbling on someone's handmade page. Joining this worksession would give me the opportunity to expand and experiment with these ideas surrounding CSS further and grow alongside others. 
+          <br><br>
+          <div class="itLightsMe">
+            <span class="yourFaith">Initial Content</span>
+          </div>
+          <br>
+          When creating experimental websites I find motivation artistically in building virtual worlds, community, and intimacy within them. I often start with a seed of a research topic or idea and let the website grow alongside it. CSS is the bud of the plant, the petals, and the flowering growth. Recently I have been working on a series of websites as greeting cards. These are single serving pages meant to be used in place of a physical card, drawing on net art aesthetics and inspired by greeting gifs, which seem nostalgic and new all at once. Using some simple CSS brings movement into these websites, as seen with the <a href="https://lizard-ctrl.github.io/digi-garden/">Thank You Card</a> and the <a href="https://lizard-ctrl.github.io/mirror/">I Love You Card.</a>  Another project of mine, <a href="https://lizard-ctrl.github.io/thesisonefinal/">Our Body Online,</a> uses light CSS with JS to create impactful design and movement. The purpose is to illustrate the thin veil between our bodies, others bodies, and the body of the internet. I was particularly focused on styling and interrogating the body {} tag when creating the project and thinking intentionally about the connection between CSS’s semantic physicality and our own physical world. In <a href="https://lizard-ctrl.github.io/havewemet/">R/Havewemet</a> I utilized CSS to create a map of the imaginary town in the aforementioned subreddit. CSS fleshed out this imagined virtual reality that existed only as text beforehand. Specific locations are attributed to each home along with CSS tooltips. When you click into the process page I am able to use CSS to visually cue to the user that the narrative of the site is now shifting. I see CSS as a key tool in my worldbuilding online. 
+          <br>
+          <br> 
+          <div class="itLightsMe">
+            <span class="yourFaith">Initial Content</span>
+          </div>
+          <br>
+          Outside of web development I also create sculptures, write, and make films. I feel that all of my practices feed off of eachother. My sculpture work normally involves physical computation, my most recent project being a <a href="https://www.timeout.com/newyork/news/can-art-make-us-lol-these-nyc-comedians-want-to-find-out-092123">“Yassified Billy Bass”</a> that sings and dances at your touch.  My writing practice is currently focused towards <a href="https://my-boyfriend.com/">My Boyfriend Lit Mag</a> where I write pieces that analyze and poke at chronic onlineness while also doing the web and print design. My film work explores how we can build characters and narratives through screen recordings and performance on the computer as best shown in <a href="https://www.youtube.com/watch?v=vl5jJr2k_xk">Ilovguys5675</a>. My experience across disciplines allows me to communicate ideas in many different digital poetic ways and would contribute well in a shared + collaborative space.  
+          <br>
+          <br>
+          <div class="itLightsMe">
+            <span class="yourFaith">Initial Content</span>
+          </div>
+          <br>
+          I have experience in collective and collaborative work as a facilitator, teacher, organizer, and participant. The best discoveries I’ve had artistically have come from being surrounded by people with different life experiences to create together. Most recently I participated in OOOhackathon where I collaborated with a group of eight people to create a set of vibrators that were activated by human biometrics. Working intimately with this group over a short period of time was so fulfilling and led to us all learning from each other on a topic we were mutually passionate about. I have also participated in NYU’s Interactive Telecommunications Program camp which is a month-long skill sharing event. I was able to facilitate workshops and collectively guide people in my cohort to discover new parts of their practice. In past years I have organized feminist wikipedia edit-a-thons and have found so much joy in working towards a collective purpose. My teaching experience has involved working with children and creating material that makes learning technical skills accessible on a very basic level. This has assisted greatly in my communication skills within collaborative work and my ability to explain higher level concepts in an easily understandable way.  Participating in work within a shared space always leaves me feeling invigorated, whether I am leading or participating. Knowledge should always be shared among others; there is nothing more beautiful to me than open source. I believe collective learning and collective creation is the only way forward. 
+          <br>
+          <br>
+          <div class="itLightsMe">
+            <span class="yourFaith">Initial Content</span>
+          </div>
+          <br>
+          A presentation I would like to propose would be a web performance of an expanded version of <a href="https://lizard-ctrl.github.io/core-studio-fall/daily-sketches/sketch2/index.html">All Of My Data.</a> This project presents my digital footprint, weaving digital posts of mine with data collected from applications and images stored in the cloud. CSS is an integral part of this work as it helps me to orchestrate the user’s movements on the website alongside building design and structure. The newer version has been in progress for a bit and I would be proud to share it. I would like to walk through the website and the rehearsed movements while also touching on intimacy, surveillance, and consent online.
+          <br> 
+          <br>
+          <div class="itLightsMe">
+            <span class="yourFaith">Initial Content</span>
+          </div>
+          <br>
+          I believe my multidisciplinary skills and artistic practice along with my teaching experience and passion for declarative languages would make me a great fit for this worksession. I am so grateful for the opportunity to submit an application with you and am looking forward to hearing back.
+          <br><br>
+          <a href="https://emmataylor.fun/">Cheers, 
+          Emma Taylor
+        </a>
+        <br><br>
+        ps: CV Below ---> 
       </p>
   
   
@@ -285,25 +357,55 @@
 <div class="canWeShareNow" id="canWeShareNow3">
   <p id="yourGift">🕊 Dear <span class="userName"></span> 🕊,</p>
   <p class="paragraph">
-    I hope this is finding you softly and sweetly. To start I am a web developer, designer, and artist. Currently I am a digital producer at the Phillips art auction house and a contract designer with Coco Marketing working for a few clients including the Brooklyn Museum. I am non-binary, a former SW, and living in Philadelphia, PA. 
-<br><br>
-    Creating experimental websites is my preferred way to communicate conceptual ideas and research. CSS intimately fits in with my personal practices. CSS invokes the artist in me, it feels as if I am drawing, painting, and sculpting with properties, classes, and tags. I was introduced to web development through a design and technology program which has informed the way I code greatly. I am always thinking through a lens of poetic computation. When I made my first website with just HTML and CSS it felt like magic. CSS breathes life into the bones of HTML and transforms it. I use CSS statically, like a zine maker, collaging and manipulating placements, and fluidly to create web animations and movement. I use CSS IDs and Classes to create hidden digital poems of my own. CSS can turn a website from static and neutral to a website blooming and full. I believe the internet is the most interesting when you’re stumbling on someone's handmade page. 
-    <br><br>
-    CSS is the seed of all my websites. Recently I have been working on a series of websites as greeting cards. These are single serving pages meant to be used in place of a physical card, drawing on net art aesthetics and inspired by greeting gifs, which seem nostalgic and new all at once. Using some simple CSS brings movement into these websites, as seen with the <a href="https://lizard-ctrl.github.io/digi-garden/">Thank You Card</a> and the <a href="https://lizard-ctrl.github.io/mirror/">I Love You Card.</a>  Another project of mine, <a href="https://lizard-ctrl.github.io/thesisonefinal/">Our Body Online,</a> uses light CSS with JS to create impactful design and movement. The purpose is to illustrate the thin veil between our bodies, others bodies, and the body of the internet. In <a href="https://lizard-ctrl.github.io/havewemet/">R/Havewemet</a> I utilized CSS to create a map of the imaginary town in the aforementioned subreddit. Specific locations are attributed to each home along with CSS tooltips. When you click into the process page I am able to use CSS to visually cue to the user that the narrative of the site is now shifting. I see CSS as a key tool in my worldbuilding online. 
-    <br><br>
-    Outside of web development I also create sculptures, write, and make films. I feel that all of my practices feed off of eachother. My sculpture work normally involves physical computation, my most recent project being a <a href="https://www.timeout.com/newyork/news/can-art-make-us-lol-these-nyc-comedians-want-to-find-out-092123">“Yassified Billy Bass”</a> that sings and dances at your touch.  My writing practice is currently focused towards <a href="https://my-boyfriend.com/">My Boyfriend Lit Mag</a> where I write pieces that analyze and poke at chronic onlineness while also doing the web and print design. My film work explores how we can build characters and narratives through screen recordings and performance on the computer as best shown in <a href="https://www.youtube.com/watch?v=vl5jJr2k_xk">Ilovguys5675</a>. Everything I make has a running thread of poetic computation involved and has a multidisciplinary range.  
-    <br><br>
-    I have experience in collective and collaborative work as a facilitator, organizer, and participant. The best discoveries I’ve had artistically have come from being surrounded by people with different life experiences to create together. Most recently I participated in OOOhackathon where I collaborated with a group of eight people to create a set of vibrators that were activated by human biometrics. Working intimately with this group over a short period of time was so fulfilling and led to us all learning from each other on a topic we were mutually passionate about. I have also participated in NYU’s Interactive Telecommunications Program camp which is a month-long skill sharing event. I was able to facilitate workshops and collectively guide people in my cohort to discover new parts of their practice. In past years I have organized feminist wikipedia edit-a-thons and have found so much joy in working towards a collective purpose. Being involved with collaborative work always leaves me feeling invigorated, whether I am leading or participating. Knowledge should always be shared among others; there is nothing more beautiful to me than open source. I believe collective learning and collective creation is the only way forward. 
-    <br><br>
-    A presentation I would like to propose would be a web performance of an expanded version of the WIP <a href="https://lizard-ctrl.github.io/core-studio-fall/daily-sketches/sketch2/index.html">All Of My Data.</a> This project presents my full digital footprint. This includes public digital posts of mine but also data collected from applications and images stored in the cloud. CSS helps me to orchestrate the user’s movements on the website while also helping to build design and structure. The newer version has been in progress for a bit and I would be proud to share it. I would like to walk through the website and the rehearsed movements while also touching on security and safety online.
-    <br><br>
-    I am so grateful for the opportunity to submit an application with you and am looking forward to hearing back.
-    <br><br>
-    <a href="https://emmataylor.fun/">Cheers, 
-    Emma Taylor
-  </a>
-  <br>
-  ps: CV Below ---> 
+    I hope this is finding you softly and sweetly. I am a web developer, designer, and artist based in Philadelphia, Pennsylvania USA. Currently I am a digital producer at the Phillips art auction house in NYC and a contract designer with Coco Marketing, where I work with clients including the Brooklyn Museum, EarthTonics, and Leap. My artistic practice explores ideas of consent online, virtual communities, digital intimacy, and the ever thinning line between our physical and digital bodies. I am interested in the ways declarative language can be used poetically and want to explore the fluidity, power structures, and existing semantics within them. I believe I would contribute greatly to this worksession. 
+    <br>
+
+    <div class="itShapesMe">
+    <span class="yourFaith">Initial Content</span>
+  </div>
+
+    <br>
+    CSS intimately fits in with my personal practices. Declarative languages invoke the artist in me, it feels as if I am drawing, painting, and sculpting with properties, classes, and tags. I use CSS statically, like a zine maker, collaging and manipulating placements, or fluidly creating web animations and movement. CSS turns a website from a barren landscape to one that is blooming and full. My background in art original stems from zine work and design work. HTML/CSS were so appealing to me because of the accessibility in their semantics and their ability to mimic print design. Using these two languages feels like cutting up pieces of information and gluing them onto a webpage, fun and messy and full of potential. CSS can be used in a beginner, intermediate, and advanced way depending on familiarity and is more easily understood by others than algorithmic languages. The potential for skill sharing and teaching is abundant within them both. Where JS was initially intimidating for me HTML/CSS has always felt like magic. The poetic uses of CSS’s raw code is continuously appealing to me as well. I use IDs and classes creating hidden digital poems of my own inside of the text documents. I think of the body tag as a physical space, a piece of land that I am shapeshifting and morphing. My passion and focus artistically has always been on hand coding websites and experimenting with the fantasy worlds we can build within them. I believe the internet is the most interesting when you’re stumbling on someone's handmade page. Joining this worksession would give me the opportunity to expand and experiment with these ideas surrounding CSS further and grow alongside others. 
+        <br><br>
+        <div class="itShapesMe">
+          <span class="yourFaith">Initial Content</span>
+        </div>
+        <br>
+        When creating experimental websites I find motivation artistically in building virtual worlds, community, and intimacy within them. I often start with a seed of a research topic or idea and let the website grow alongside it. CSS is the bud of the plant, the petals, and the flowering growth. Recently I have been working on a series of websites as greeting cards. These are single serving pages meant to be used in place of a physical card, drawing on net art aesthetics and inspired by greeting gifs, which seem nostalgic and new all at once. Using some simple CSS brings movement into these websites, as seen with the <a href="https://lizard-ctrl.github.io/digi-garden/">Thank You Card</a> and the <a href="https://lizard-ctrl.github.io/mirror/">I Love You Card.</a>  Another project of mine, <a href="https://lizard-ctrl.github.io/thesisonefinal/">Our Body Online,</a> uses light CSS with JS to create impactful design and movement. The purpose is to illustrate the thin veil between our bodies, others bodies, and the body of the internet. I was particularly focused on styling and interrogating the body {} tag when creating the project and thinking intentionally about the connection between CSS’s semantic physicality and our own physical world. In <a href="https://lizard-ctrl.github.io/havewemet/">R/Havewemet</a> I utilized CSS to create a map of the imaginary town in the aforementioned subreddit. CSS fleshed out this imagined virtual reality that existed only as text beforehand. Specific locations are attributed to each home along with CSS tooltips. When you click into the process page I am able to use CSS to visually cue to the user that the narrative of the site is now shifting. I see CSS as a key tool in my worldbuilding online. 
+        <br>
+        <br> 
+        <div class="itShapesMe">
+          <span class="yourFaith">Initial Content</span>
+        </div>
+        <br>
+        Outside of web development I also create sculptures, write, and make films. I feel that all of my practices feed off of eachother. My sculpture work normally involves physical computation, my most recent project being a <a href="https://www.timeout.com/newyork/news/can-art-make-us-lol-these-nyc-comedians-want-to-find-out-092123">“Yassified Billy Bass”</a> that sings and dances at your touch.  My writing practice is currently focused towards <a href="https://my-boyfriend.com/">My Boyfriend Lit Mag</a> where I write pieces that analyze and poke at chronic onlineness while also doing the web and print design. My film work explores how we can build characters and narratives through screen recordings and performance on the computer as best shown in <a href="https://www.youtube.com/watch?v=vl5jJr2k_xk">Ilovguys5675</a>. My experience across disciplines allows me to communicate ideas in many different digital poetic ways and would contribute well in a shared + collaborative space.  
+        <br>
+        <br>
+        <div class="itShapesMe">
+          <span class="yourFaith">Initial Content</span>
+        </div>
+        <br>
+        I have experience in collective and collaborative work as a facilitator, teacher, organizer, and participant. The best discoveries I’ve had artistically have come from being surrounded by people with different life experiences to create together. Most recently I participated in OOOhackathon where I collaborated with a group of eight people to create a set of vibrators that were activated by human biometrics. Working intimately with this group over a short period of time was so fulfilling and led to us all learning from each other on a topic we were mutually passionate about. I have also participated in NYU’s Interactive Telecommunications Program camp which is a month-long skill sharing event. I was able to facilitate workshops and collectively guide people in my cohort to discover new parts of their practice. In past years I have organized feminist wikipedia edit-a-thons and have found so much joy in working towards a collective purpose. My teaching experience has involved working with children and creating material that makes learning technical skills accessible on a very basic level. This has assisted greatly in my communication skills within collaborative work and my ability to explain higher level concepts in an easily understandable way.  Participating in work within a shared space always leaves me feeling invigorated, whether I am leading or participating. Knowledge should always be shared among others; there is nothing more beautiful to me than open source. I believe collective learning and collective creation is the only way forward. 
+        <br>
+        <br>
+        <div class="itShapesMe">
+          <span class="yourFaith">Initial Content</span>
+        </div>
+        <br>
+        A presentation I would like to propose would be a web performance of an expanded version of <a href="https://lizard-ctrl.github.io/core-studio-fall/daily-sketches/sketch2/index.html">All Of My Data.</a> This project presents my digital footprint, weaving digital posts of mine with data collected from applications and images stored in the cloud. CSS is an integral part of this work as it helps me to orchestrate the user’s movements on the website alongside building design and structure. The newer version has been in progress for a bit and I would be proud to share it. I would like to walk through the website and the rehearsed movements while also touching on intimacy, surveillance, and consent online.
+        <br> 
+        <br>
+        <div class="itShapesMe">
+          <span class="yourFaith">Initial Content</span>
+        </div>
+        <br>
+        I believe my multidisciplinary skills and artistic practice along with my teaching experience and passion for declarative languages would make me a great fit for this worksession. I am so grateful for the opportunity to submit an application with you and am looking forward to hearing back.
+        <br><br>
+        <a href="https://emmataylor.fun/">Cheers, 
+        Emma Taylor
+      </a>
+      <br><br>
+      ps: CV Below ---> 
     </p>
 
 
@@ -371,27 +473,56 @@
 <div class="canWeShareNow" id="canWeShareNow4">
 <p id="yourGift">🕊 Dear <span class="userName"></span> 🕊,</p>
 <p class="paragraph">
-  I hope this is finding you softly and sweetly. To start I am a web developer, designer, and artist. Currently I am a digital producer at the Phillips art auction house and a contract designer with Coco Marketing working for a few clients including the Brooklyn Museum. I am non-binary, a former SW, and living in Philadelphia, PA. 
-<br><br>
-  Creating experimental websites is my preferred way to communicate conceptual ideas and research. CSS intimately fits in with my personal practices. CSS invokes the artist in me, it feels as if I am drawing, painting, and sculpting with properties, classes, and tags. I was introduced to web development through a design and technology program which has informed the way I code greatly. I am always thinking through a lens of poetic computation. When I made my first website with just HTML and CSS it felt like magic. CSS breathes life into the bones of HTML and transforms it. I use CSS statically, like a zine maker, collaging and manipulating placements, and fluidly to create web animations and movement. I use CSS IDs and Classes to create hidden digital poems of my own. CSS can turn a website from static and neutral to a website blooming and full. I believe the internet is the most interesting when you’re stumbling on someone's handmade page. 
-  <br><br>
-  CSS is the seed of all my websites. Recently I have been working on a series of websites as greeting cards. These are single serving pages meant to be used in place of a physical card, drawing on net art aesthetics and inspired by greeting gifs, which seem nostalgic and new all at once. Using some simple CSS brings movement into these websites, as seen with the <a href="https://lizard-ctrl.github.io/digi-garden/">Thank You Card</a> and the <a href="https://lizard-ctrl.github.io/mirror/">I Love You Card.</a>  Another project of mine, <a href="https://lizard-ctrl.github.io/thesisonefinal/">Our Body Online,</a> uses light CSS with JS to create impactful design and movement. The purpose is to illustrate the thin veil between our bodies, others bodies, and the body of the internet. In <a href="https://lizard-ctrl.github.io/havewemet/">R/Havewemet</a> I utilized CSS to create a map of the imaginary town in the aforementioned subreddit. Specific locations are attributed to each home along with CSS tooltips. When you click into the process page I am able to use CSS to visually cue to the user that the narrative of the site is now shifting. I see CSS as a key tool in my worldbuilding online. 
-  <br><br>
-  Outside of web development I also create sculptures, write, and make films. I feel that all of my practices feed off of eachother. My sculpture work normally involves physical computation, my most recent project being a <a href="https://www.timeout.com/newyork/news/can-art-make-us-lol-these-nyc-comedians-want-to-find-out-092123">“Yassified Billy Bass”</a> that sings and dances at your touch.  My writing practice is currently focused towards <a href="https://my-boyfriend.com/">My Boyfriend Lit Mag</a> where I write pieces that analyze and poke at chronic onlineness while also doing the web and print design. My film work explores how we can build characters and narratives through screen recordings and performance on the computer as best shown in <a href="https://www.youtube.com/watch?v=vl5jJr2k_xk">Ilovguys5675</a>. Everything I make has a running thread of poetic computation involved and has a multidisciplinary range.  
-  <br><br>
-  I have experience in collective and collaborative work as a facilitator, organizer, and participant. The best discoveries I’ve had artistically have come from being surrounded by people with different life experiences to create together. Most recently I participated in OOOhackathon where I collaborated with a group of eight people to create a set of vibrators that were activated by human biometrics. Working intimately with this group over a short period of time was so fulfilling and led to us all learning from each other on a topic we were mutually passionate about. I have also participated in NYU’s Interactive Telecommunications Program camp which is a month-long skill sharing event. I was able to facilitate workshops and collectively guide people in my cohort to discover new parts of their practice. In past years I have organized feminist wikipedia edit-a-thons and have found so much joy in working towards a collective purpose. Being involved with collaborative work always leaves me feeling invigorated, whether I am leading or participating. Knowledge should always be shared among others; there is nothing more beautiful to me than open source. I believe collective learning and collective creation is the only way forward. 
-  <br><br>
-  A presentation I would like to propose would be a web performance of an expanded version of the WIP <a href="https://lizard-ctrl.github.io/core-studio-fall/daily-sketches/sketch2/index.html">All Of My Data.</a> This project presents my full digital footprint. This includes public digital posts of mine but also data collected from applications and images stored in the cloud. CSS helps me to orchestrate the user’s movements on the website while also helping to build design and structure. The newer version has been in progress for a bit and I would be proud to share it. I would like to walk through the website and the rehearsed movements while also touching on security and safety online.
-  <br><br>
-  I am so grateful for the opportunity to submit an application with you and am looking forward to hearing back.
-  <br><br>
-  <a href="https://emmataylor.fun/">Cheers, 
-  Emma Taylor
-</a>
-<br>
-ps: CV Below ---> 
-  </p>
+  I hope this is finding you softly and sweetly. I am a web developer, designer, and artist based in Philadelphia, Pennsylvania USA. Currently I am a digital producer at the Phillips art auction house in NYC and a contract designer with Coco Marketing, where I work with clients including the Brooklyn Museum, EarthTonics, and Leap. My artistic practice explores ideas of consent online, virtual communities, digital intimacy, and the ever thinning line between our physical and digital bodies. I am interested in the ways declarative language can be used poetically and want to explore the fluidity, power structures, and existing semantics within them. I believe I would contribute greatly to this worksession. 
+  <br>
 
+  <div class="itEvadesMe">
+  <span class="yourFaith">Initial Content</span>
+</div>
+
+  <br>
+  CSS intimately fits in with my personal practices. Declarative languages invoke the artist in me, it feels as if I am drawing, painting, and sculpting with properties, classes, and tags. I use CSS statically, like a zine maker, collaging and manipulating placements, or fluidly creating web animations and movement. CSS turns a website from a barren landscape to one that is blooming and full. My background in art original stems from zine work and design work. HTML/CSS were so appealing to me because of the accessibility in their semantics and their ability to mimic print design. Using these two languages feels like cutting up pieces of information and gluing them onto a webpage, fun and messy and full of potential. CSS can be used in a beginner, intermediate, and advanced way depending on familiarity and is more easily understood by others than algorithmic languages. The potential for skill sharing and teaching is abundant within them both. Where JS was initially intimidating for me HTML/CSS has always felt like magic. The poetic uses of CSS’s raw code is continuously appealing to me as well. I use IDs and classes creating hidden digital poems of my own inside of the text documents. I think of the body tag as a physical space, a piece of land that I am shapeshifting and morphing. My passion and focus artistically has always been on hand coding websites and experimenting with the fantasy worlds we can build within them. I believe the internet is the most interesting when you’re stumbling on someone's handmade page. Joining this worksession would give me the opportunity to expand and experiment with these ideas surrounding CSS further and grow alongside others. 
+      <br><br>
+      <div class="itEvadesMe">
+        <span class="yourFaith">Initial Content</span>
+      </div>
+      <br>
+      When creating experimental websites I find motivation artistically in building virtual worlds, community, and intimacy within them. I often start with a seed of a research topic or idea and let the website grow alongside it. CSS is the bud of the plant, the petals, and the flowering growth. Recently I have been working on a series of websites as greeting cards. These are single serving pages meant to be used in place of a physical card, drawing on net art aesthetics and inspired by greeting gifs, which seem nostalgic and new all at once. Using some simple CSS brings movement into these websites, as seen with the <a href="https://lizard-ctrl.github.io/digi-garden/">Thank You Card</a> and the <a href="https://lizard-ctrl.github.io/mirror/">I Love You Card.</a>  Another project of mine, <a href="https://lizard-ctrl.github.io/thesisonefinal/">Our Body Online,</a> uses light CSS with JS to create impactful design and movement. The purpose is to illustrate the thin veil between our bodies, others bodies, and the body of the internet. I was particularly focused on styling and interrogating the body {} tag when creating the project and thinking intentionally about the connection between CSS’s semantic physicality and our own physical world. In <a href="https://lizard-ctrl.github.io/havewemet/">R/Havewemet</a> I utilized CSS to create a map of the imaginary town in the aforementioned subreddit. CSS fleshed out this imagined virtual reality that existed only as text beforehand. Specific locations are attributed to each home along with CSS tooltips. When you click into the process page I am able to use CSS to visually cue to the user that the narrative of the site is now shifting. I see CSS as a key tool in my worldbuilding online. 
+      <br>
+      <br> 
+      <div class="itEvadesMe">
+        <span class="yourFaith">Initial Content</span>
+      </div>
+      <br>
+      Outside of web development I also create sculptures, write, and make films. I feel that all of my practices feed off of eachother. My sculpture work normally involves physical computation, my most recent project being a <a href="https://www.timeout.com/newyork/news/can-art-make-us-lol-these-nyc-comedians-want-to-find-out-092123">“Yassified Billy Bass”</a> that sings and dances at your touch.  My writing practice is currently focused towards <a href="https://my-boyfriend.com/">My Boyfriend Lit Mag</a> where I write pieces that analyze and poke at chronic onlineness while also doing the web and print design. My film work explores how we can build characters and narratives through screen recordings and performance on the computer as best shown in <a href="https://www.youtube.com/watch?v=vl5jJr2k_xk">Ilovguys5675</a>. My experience across disciplines allows me to communicate ideas in many different digital poetic ways and would contribute well in a shared + collaborative space.  
+      <br>
+      <br>
+      <div class="itEvadesMe">
+        <span class="yourFaith">Initial Content</span>
+      </div>
+      <br>
+      I have experience in collective and collaborative work as a facilitator, teacher, organizer, and participant. The best discoveries I’ve had artistically have come from being surrounded by people with different life experiences to create together. Most recently I participated in OOOhackathon where I collaborated with a group of eight people to create a set of vibrators that were activated by human biometrics. Working intimately with this group over a short period of time was so fulfilling and led to us all learning from each other on a topic we were mutually passionate about. I have also participated in NYU’s Interactive Telecommunications Program camp which is a month-long skill sharing event. I was able to facilitate workshops and collectively guide people in my cohort to discover new parts of their practice. In past years I have organized feminist wikipedia edit-a-thons and have found so much joy in working towards a collective purpose. My teaching experience has involved working with children and creating material that makes learning technical skills accessible on a very basic level. This has assisted greatly in my communication skills within collaborative work and my ability to explain higher level concepts in an easily understandable way.  Participating in work within a shared space always leaves me feeling invigorated, whether I am leading or participating. Knowledge should always be shared among others; there is nothing more beautiful to me than open source. I believe collective learning and collective creation is the only way forward. 
+      <br>
+      <br>
+      <div class="itEvadesMe">
+        <span class="yourFaith">Initial Content</span>
+      </div>
+      <br>
+      A presentation I would like to propose would be a web performance of an expanded version of <a href="https://lizard-ctrl.github.io/core-studio-fall/daily-sketches/sketch2/index.html">All Of My Data.</a> This project presents my digital footprint, weaving digital posts of mine with data collected from applications and images stored in the cloud. CSS is an integral part of this work as it helps me to orchestrate the user’s movements on the website alongside building design and structure. The newer version has been in progress for a bit and I would be proud to share it. I would like to walk through the website and the rehearsed movements while also touching on intimacy, surveillance, and consent online.
+      <br> 
+      <br>
+      <div class="itEvadesMe">
+        <span class="yourFaith">Initial Content</span>
+      </div>
+      <br>
+      I believe my multidisciplinary skills and artistic practice along with my teaching experience and passion for declarative languages would make me a great fit for this worksession. I am so grateful for the opportunity to submit an application with you and am looking forward to hearing back.
+      <br><br>
+      <a href="https://emmataylor.fun/">Cheers, 
+      Emma Taylor
+    </a>
+    <br><br>
+    ps: CV Below ---> 
+  </p>
 
   <div class="grid-container">
 
@@ -510,6 +641,16 @@ document.getElementById('styleForm').addEventListener('submit', function(event) 
   var selectedImage = document.querySelector('input[name="bgImage"]:checked').value;
   // Update background image
   document.body.style.backgroundImage = "url('" + selectedImage + ".gif')";
+});
+
+document.querySelectorAll('input[name="content"]').forEach(function(radio) {
+  radio.addEventListener('change', function() {
+    var selectedContent = this.value;
+    // Update the text content of all elements with class "contentSpan"
+    document.querySelectorAll('.yourFaith').forEach(function(span) {
+      span.textContent = selectedContent;
+    });
+  });
 });
 
 // Event listener to handle font selection change
